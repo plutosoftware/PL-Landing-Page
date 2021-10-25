@@ -1,2 +1,2 @@
 # PL-Landing-Page
-Fantasia is Online Music Streaming Application. This repository contains documentation related to Fantasia application.
+Fantasia is Online Music Streaming Application. This repository contains code related to Fantasia application Landing Page.
