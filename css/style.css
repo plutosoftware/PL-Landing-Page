@@ -166,6 +166,7 @@ nav div p:hover {
 #hero_section {
     display: flex;
     padding: 0px 50px;
+    height: 100vh;
 }
 
 #hero_section div:nth-child(1) {
@@ -174,7 +175,7 @@ nav div p:hover {
 
 #hero_section div:nth-child(2) {
     flex: 1;
-    margin-top: 50px;
+    margin-top: 80px;
     color: white;
     font-size: 1.8em;
 }
@@ -201,6 +202,42 @@ nav div p:hover {
     border: none;
 }
 
+/* Feature Section */
+#feature {
+    color: white;
+    padding: 0px 50px;
+    font-size: 1.5rem;
+}
+
+#feature_cont {
+    display: flex;
+    font-size: 1.2rem;
+    padding: 50px 0px;
+}
+#feature_cont i {
+    color: #b743df;
+    margin-left: -5px;
+    display: block;
+}
+
+#feature_cont div {
+    padding: 15px;
+    box-shadow: inset 1000px 1000px 100px 100px #ffffff10;
+    margin: 0px 10px;
+}
+
+#feature_cont div:first-child {
+    margin-left: 0px;
+}
+
+#feature_cont div:last-child {
+    margin-right: 0px;
+}
+
+#feature_cont div h1 {
+    padding: 10px 0px;
+}
+
 @media only screen and (max-width: 768px) {
     #hero_section {
         padding: 20px;
@@ -219,5 +256,16 @@ nav div p:hover {
 
     #mb_nv_btn {
         display: block;
+    }
+
+    #feature {
+        padding: 0px 20px;
+    }
+
+    #feature_cont {
+        flex-direction: column;
+    }
+    #feature_cont div{
+        margin: 15px 0px;
     }
 }
