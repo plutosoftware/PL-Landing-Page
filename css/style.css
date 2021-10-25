@@ -207,6 +207,7 @@ nav div p:hover {
     color: white;
     padding: 0px 50px;
     font-size: 1.5rem;
+    margin-top: 50px;
 }
 
 #feature_cont {
@@ -265,7 +266,7 @@ nav div p:hover {
     #feature_cont {
         flex-direction: column;
     }
-    #feature_cont div{
+    #feature_cont div {
         margin: 15px 0px;
     }
 }
