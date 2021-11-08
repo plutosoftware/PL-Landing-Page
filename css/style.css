@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    color: #fff;
+    color: black;
     font-size: 18px;
     padding: 10px;
     text-align: center;
@@ -37,7 +37,7 @@ body {
     cursor: pointer;
     width: min-content;
     background: linear-gradient(0deg, #000, #262626);
-    background: #1a1a2a;
+    background: white;
 }
 .shadow:before,
 .shadow:after {
@@ -238,6 +238,38 @@ nav div p:hover {
 
 #feature_cont div h1 {
     padding: 10px 0px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+#contact form input {
+    margin: 20px 0px;
+    padding: 10px;
+    outline: none;
+}
+
+#contact form textarea {
+    padding: 10px;
+    outline: none;
+}
+
+#contact form button {
+    margin: 20px 0px;
+    padding: 10px;
+    outline: none;
+    background-color: #8727d6;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
